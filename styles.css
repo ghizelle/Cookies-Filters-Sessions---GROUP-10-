@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+label, select, input {
+    margin: 0 10px;
+}
+
+#productList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    background-color: burlywood;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+tfoot th {
+    font-size: 1.2em;
+    text-align: right;
+}
+
+/* Container for "Go to Cart" Button */
+.go-to-cart-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Styling the "Go to Cart" Button */
+.go-to-cart-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background */
+    color: #fff; /* White text */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.go-to-cart-button:hover {
+    background-color: #388E3C; /* Darker green on hover */
+}
+
+/* Style for each product container */
+.product {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+}
+
+/* Styling the "Add to Cart" Button */
+.add-to-cart-button {
+    padding: 8px 16px;
+    background-color: #FFA500; /* Orange color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart-button:hover {
+    background-color: #FF8C00; /* Darker orange on hover */
+}
+
+.cart-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.cart-table th, .cart-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.cart-table th {
+    background-color: #f4f4f4;
+}
+
+.checkout-button, .back-to-shop {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.checkout-button:hover, .back-to-shop:hover {
+    background-color: #388E3C;
+}
+
